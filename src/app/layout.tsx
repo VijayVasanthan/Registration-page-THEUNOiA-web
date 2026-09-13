@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   keywords: [
     "THEUNOiA",
     "student freelancing",
-    "SkillBridge",
+    "Hunhar",
     "India",
     "Bharat",
     "mentorship",

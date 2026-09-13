@@ -18,14 +18,14 @@ export const SECTIONS = [
 ] as const;
 
 export const NAV_LINKS = [
-  { label: "hunr", href: "/hunr" },
-  { label: "Mentorship", href: "/mentorship" },
-  { label: "CONNECT", href: "/connect" },
+  { label: "Hunhar", href: "/hunhar" },
+  { label: "Mentoria", href: "/mentoria" },
+  { label: "The Guild", href: "/the-guild" },
   { label: "Team", href: "#team-teaser" },
   { label: "Get Started", href: "#cta" },
 ] as const;
 
-export const CONNECT_CITIES = [
+export const GUILD_CITIES = [
   "Nagpur",
   "Bengaluru",
   "Mumbai",
@@ -36,31 +36,31 @@ export const CONNECT_CITIES = [
 
 export const STATS = [
   { value: 72, suffix: "%", label: "Freelance economy growth, India" },
-  { value: 6, suffix: "", label: "CONNECT chapter cities" },
-  { value: 1000, suffix: "+", label: "Individuals reached by CONNECT" },
-  { value: 18, suffix: "–25", label: "hunr target age range" },
+  { value: 6, suffix: "", label: "The Guild chapter cities" },
+  { value: 1000, suffix: "+", label: "Individuals reached by The Guild" },
+  { value: 18, suffix: "–25", label: "Hunhar target age range" },
 ] as const;
 
 export const PILLARS = [
   {
-    title: "hunr",
+    title: "Hunhar",
     description:
       "Bharat's student-first freelancing platform. AI-assisted skill verification and flexible bidding — talent judged on capability, not certificates alone.",
-    link: { label: "Explore hunr →", href: "/hunr" },
+    link: { label: "Explore Hunhar →", href: "/hunhar" },
     icon: "skillbridge" as const,
   },
   {
-    title: "Mentorship",
+    title: "Mentoria",
     description:
       "Not lectures — guidance. Mentors who've walked the path, helping students build direction, confidence, and their first real opportunities.",
-    link: { label: "Meet the mentors →", href: "/mentorship" },
+    link: { label: "Meet the mentors →", href: "/mentoria" },
     icon: "mentorship" as const,
   },
   {
-    title: "CONNECT",
+    title: "The Guild",
     description:
       "Our on-ground initiative across Nagpur, Bengaluru, Mumbai, Raipur, Coimbatore, and Bhubaneswar — bridging talent, industry, and community.",
-    link: { label: "Find your city →", href: "/connect" },
+    link: { label: "Find your city →", href: "/the-guild" },
     icon: "connect" as const,
   },
 ] as const;

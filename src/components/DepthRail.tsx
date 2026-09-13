@@ -6,7 +6,7 @@ import { SECTIONS } from '@/lib/constants'
 
 export default function DepthRail() {
   const { scrollYProgress } = useScroll()
-  const [activeSection, setActiveSection] = useState(SECTIONS[0]?.label || 'SURFACE')
+  const [activeSection, setActiveSection] = useState<string>(SECTIONS[0]?.label || 'SURFACE')
   
   const markerTop = useTransform(scrollYProgress, [0, 1], ['0%', '100%'])
 

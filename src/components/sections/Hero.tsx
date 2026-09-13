@@ -12,7 +12,7 @@ export default function Hero() {
     <section id="hero" className="relative flex flex-col justify-center items-start w-full min-h-screen px-[8vw] py-[140px] text-ivory">
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle, rgba(192,107,62,0.08) 0%, transparent 70%)' }} />
       <ScrollReveal delay={0} duration={0.8}>
-        <Eyebrow>Bharat's student-first freelance ecosystem</Eyebrow>
+        <Eyebrow>Bharat&apos;s student-first freelance ecosystem</Eyebrow>
       </ScrollReveal>
       
       <ScrollReveal delay={0.1} duration={0.8}>

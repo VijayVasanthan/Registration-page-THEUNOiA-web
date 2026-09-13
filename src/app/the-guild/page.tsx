@@ -4,7 +4,7 @@ import ScrollReveal from '@/components/animation/ScrollReveal'
 import Button from '@/components/ui/Button'
 import Eyebrow from '@/components/ui/Eyebrow'
 
-export default function ConnectPage() {
+export default function TheGuildPage() {
   const cities = [
     { name: 'Nagpur', status: 'Active' },
     { name: 'Bengaluru', status: 'Coming soon' },
@@ -22,7 +22,7 @@ export default function ConnectPage() {
       <section className="relative pt-[180px] pb-[120px] px-[8vw] overflow-hidden">
         <div className="max-w-[1100px] mx-auto text-center relative z-10">
           <ScrollReveal>
-            <Eyebrow className="mb-6 justify-center">CONNECT</Eyebrow>
+            <Eyebrow className="mb-6 justify-center">The Guild</Eyebrow>
             <h1 className="font-head text-[clamp(48px,6vw,84px)] leading-[1.1] tracking-tight font-bold mb-6 text-ivory max-w-[900px] mx-auto">
               Bridging talent, industry, and community.
             </h1>
@@ -55,11 +55,11 @@ export default function ConnectPage() {
         </div>
       </section>
 
-      {/* What Happens at CONNECT */}
+      {/* What Happens at The Guild */}
       <section className="py-[120px] px-[8vw]">
         <div className="max-w-[1100px] mx-auto">
           <ScrollReveal>
-            <h2 className="font-head text-4xl md:text-5xl font-bold mb-16 text-center text-ivory">What Happens at CONNECT</h2>
+            <h2 className="font-head text-4xl md:text-5xl font-bold mb-16 text-center text-ivory">What Happens at The Guild</h2>
           </ScrollReveal>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -121,7 +121,7 @@ export default function ConnectPage() {
             <h2 className="font-head text-[clamp(40px,5vw,72px)] leading-[1.1] tracking-tight font-bold mb-10 text-ivory">
               Find your city.
             </h2>
-            <Button href="#" variant="primary" className="text-lg px-8 py-4">
+            <Button variant="primary" className="text-lg px-8 py-4">
               Join the Community
             </Button>
           </ScrollReveal>

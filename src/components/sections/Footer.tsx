@@ -1,5 +1,5 @@
 import Logo from '@/components/ui/Logo'
-import { CONNECT_CITIES } from '@/lib/constants'
+import { GUILD_CITIES } from '@/lib/constants'
 
 export default function Footer() {
   return (
@@ -10,12 +10,12 @@ export default function Footer() {
         </div>
         
         <div className="max-w-[400px]">
-          <strong>CONNECT cities</strong>
+          <strong>The Guild cities</strong>
           <p className="opacity-75 leading-[1.9] text-[13.5px] mt-2">
-            {CONNECT_CITIES.map((city, i) => (
+            {GUILD_CITIES.map((city, i) => (
               <span key={city}>
                 {city}
-                {i < CONNECT_CITIES.length - 1 && (
+                {i < GUILD_CITIES.length - 1 && (
                   <>
                     {' · '}
                     {(i + 1) % 3 === 0 && <br />}

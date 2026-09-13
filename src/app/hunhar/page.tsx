@@ -6,7 +6,7 @@ import LunaAnimation from '@/components/animation/LunaAnimation'
 import Button from '@/components/ui/Button'
 import Eyebrow from '@/components/ui/Eyebrow'
 
-export default function HunrPage() {
+export default function HunharPage() {
   return (
     <main className="min-h-screen bg-navy text-ivory selection:bg-terracotta/30 selection:text-ivory">
       <Nav />
@@ -19,13 +19,13 @@ export default function HunrPage() {
           <ScrollReveal>
             <Eyebrow className="text-terracotta">THEUNOiA presents</Eyebrow>
             <h1 className="font-head text-[clamp(60px,8vw,120px)] leading-[1.1] tracking-tight font-bold mb-6 text-ivory">
-              hunr
+              Hunhar
             </h1>
             <h2 className="font-head text-[clamp(24px,3vw,32px)] leading-tight mb-6 text-ivory/90">
-              Bharat's student-first freelancing platform.
+              Bharat&apos;s student-first freelancing platform.
             </h2>
             <p className="font-body text-lg text-beige mb-10 max-w-xl leading-relaxed">
-              Talent judged on capability, not certificates alone. hunr (formerly SkillBridge) connects verified student talent with real-world projects — powered by AI matching, skill verification, and community trust.
+              Talent judged on capability, not certificates alone. Hunhar (formerly SkillBridge) connects verified student talent with real-world projects — powered by AI matching, skill verification, and community trust.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <Button variant="primary">
@@ -38,7 +38,7 @@ export default function HunrPage() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.2} className="relative h-[400px] lg:h-[600px] flex items-center justify-center">
-            <AnimationSlot id="hunr-luna">
+            <AnimationSlot id="hunhar-luna">
               <LunaAnimation variant="working" />
             </AnimationSlot>
           </ScrollReveal>
@@ -81,7 +81,7 @@ export default function HunrPage() {
       <section id="how-it-works" className="py-[120px] px-[8vw] bg-navy-deep">
         <div className="max-w-[1100px] mx-auto">
           <ScrollReveal>
-            <h2 className="font-head text-4xl md:text-5xl font-bold mb-16 text-center text-ivory">The hunr Journey</h2>
+            <h2 className="font-head text-4xl md:text-5xl font-bold mb-16 text-center text-ivory">The Hunhar Journey</h2>
           </ScrollReveal>
           
           <ScrollReveal delay={0.2}>
@@ -149,7 +149,7 @@ export default function HunrPage() {
               Ready to start hunting?
             </h2>
             <p className="font-body text-xl text-beige mb-10">
-              Bridge the gap between learning and earning. Join the waitlist to be among the first to access the hunr platform.
+              Bridge the gap between learning and earning. Join the waitlist to be among the first to access the Hunhar platform.
             </p>
             
             <form className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto" onSubmit={(e) => e.preventDefault()}>

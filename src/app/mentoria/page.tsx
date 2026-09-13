@@ -4,7 +4,7 @@ import ScrollReveal from '@/components/animation/ScrollReveal'
 import Button from '@/components/ui/Button'
 import Eyebrow from '@/components/ui/Eyebrow'
 
-export default function MentorshipPage() {
+export default function MentoriaPage() {
   return (
     <main className="min-h-screen bg-navy text-ivory selection:bg-terracotta/30 selection:text-ivory">
       <Nav />
@@ -15,12 +15,12 @@ export default function MentorshipPage() {
         
         <div className="max-w-[1100px] mx-auto text-center relative z-10">
           <ScrollReveal>
-            <Eyebrow className="mb-6 justify-center text-terracotta">Mentorship</Eyebrow>
+            <Eyebrow className="mb-6 justify-center text-terracotta">Mentoria</Eyebrow>
             <h1 className="font-head text-[clamp(50px,7vw,100px)] leading-[1.1] tracking-tight font-bold mb-6 text-ivory max-w-[900px] mx-auto">
               Not lectures — <span className="italic font-light opacity-90">guidance.</span>
             </h1>
             <p className="font-body text-xl text-beige mb-10 max-w-2xl mx-auto leading-relaxed">
-              Mentors who've walked the path, helping students build direction, confidence, and their first real opportunities.
+              Mentors who&apos;ve walked the path, helping students build direction, confidence, and their first real opportunities.
             </p>
           </ScrollReveal>
         </div>
@@ -37,7 +37,7 @@ export default function MentorshipPage() {
             <ScrollReveal delay={0.1}>
               <div className="p-8 border-t border-terracotta/30">
                 <h3 className="font-head text-2xl font-bold mb-4 text-ivory">Real Experience</h3>
-                <p className="font-body text-beige leading-relaxed">Mentors are working professionals, founders, and industry leaders — not textbook instructors. They teach what's relevant today.</p>
+                <p className="font-body text-beige leading-relaxed">Mentors are working professionals, founders, and industry leaders — not textbook instructors. They teach what&apos;s relevant today.</p>
               </div>
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
@@ -79,7 +79,7 @@ export default function MentorshipPage() {
                   <div className="w-4 h-4 bg-gold rounded-full"></div>
                 </div>
                 <h3 className="font-head text-2xl font-bold mb-4 text-ivory">Peer Mentors</h3>
-                <p className="font-body text-beige">Senior students and recent graduates who have just successfully navigated the journey you're on.</p>
+                <p className="font-body text-beige">Senior students and recent graduates who have just successfully navigated the journey you&apos;re on.</p>
               </div>
             </ScrollReveal>
             <ScrollReveal delay={0.3}>
@@ -88,7 +88,7 @@ export default function MentorshipPage() {
                   <div className="w-4 h-4 bg-beige rounded-full"></div>
                 </div>
                 <h3 className="font-head text-2xl font-bold mb-4 text-ivory">Community Mentors</h3>
-                <p className="font-body text-beige">Alumni who give back through our CONNECT events, building a sustainable ecosystem of growth.</p>
+                <p className="font-body text-beige">Alumni who give back through The Guild events, building a sustainable ecosystem of growth.</p>
               </div>
             </ScrollReveal>
           </div>
@@ -105,7 +105,7 @@ export default function MentorshipPage() {
             <p className="font-body text-xl text-beige mb-10">
               Stop guessing. Start growing with the right mentorship.
             </p>
-            <Button href="#" variant="primary" className="bg-terracotta hover:bg-terracotta/90 text-ivory border-transparent">
+            <Button variant="primary" className="bg-terracotta hover:bg-terracotta/90 text-ivory border-transparent">
               Meet the mentors &rarr;
             </Button>
           </ScrollReveal>

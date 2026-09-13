@@ -13,7 +13,7 @@ export default function BehindName() {
           Our name is rooted in the Greek word <AnimationSlot id="behind-name-shimmer" className="inline"><span className="text-gold italic">Eunoia</span></AnimationSlot> — beautiful thinking. Eunoia is where beautiful thinking begins. THEUNOiA is where it finds its ocean.
         </p>
         <p className="text-[19px] leading-[1.8] opacity-[0.88] mb-5">
-          The "TH" transforms a word into a destination — reflecting our vision of building Bharat's first student-first, AI-powered freelancing platform, where beautiful thinking finds opportunities, projects, and purpose.
+          The &quot;TH&quot; transforms a word into a destination — reflecting our vision of building Bharat&apos;s first student-first, AI-powered freelancing platform, where beautiful thinking finds opportunities, projects, and purpose.
         </p>
       </ScrollReveal>
     </section>

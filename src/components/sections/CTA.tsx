@@ -26,7 +26,7 @@ export default function CTA() {
 
         <ScrollReveal delay={0.2}>
           <p className="opacity-85 max-w-[520px] mb-9 text-[16px] mx-auto">
-            Join the waitlist and be first to know when hunr opens for students and clients.
+            Join the waitlist and be first to know when Hunhar opens for students and clients.
           </p>
         </ScrollReveal>
 
