@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Logo from '@/components/ui/Logo'
+import LogoAnimated from '@/components/ui/LogoAnimated'
 import { NAV_LINKS } from '@/lib/constants'
 
 export default function Nav() {
@@ -14,7 +14,7 @@ export default function Nav() {
         className="fixed top-0 left-0 right-0 z-20 flex items-center justify-between py-[22px] px-12 backdrop-blur-[10px]"
         style={{ background: 'linear-gradient(to bottom, rgba(10,27,55,0.75), rgba(10,27,55,0))' }}
       >
-        <Logo variant="secondary" />
+        <LogoAnimated variant="secondary" />
 
         {/* Desktop Links */}
         <div className="hidden md:flex gap-8 text-[14px] font-medium opacity-85">

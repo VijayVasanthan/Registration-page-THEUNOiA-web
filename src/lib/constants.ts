@@ -18,8 +18,9 @@ export const SECTIONS = [
 ] as const;
 
 export const NAV_LINKS = [
-  { label: "SkillBridge", href: "#pillars" },
-  { label: "Mentorship", href: "#pillars" },
+  { label: "hunr", href: "/hunr" },
+  { label: "Mentorship", href: "/mentorship" },
+  { label: "CONNECT", href: "/connect" },
   { label: "Team", href: "#team-teaser" },
   { label: "Get Started", href: "#cta" },
 ] as const;
@@ -37,29 +38,29 @@ export const STATS = [
   { value: 72, suffix: "%", label: "Freelance economy growth, India" },
   { value: 6, suffix: "", label: "CONNECT chapter cities" },
   { value: 1000, suffix: "+", label: "Individuals reached by CONNECT" },
-  { value: 18, suffix: "–25", label: "SkillBridge target age range" },
+  { value: 18, suffix: "–25", label: "hunr target age range" },
 ] as const;
 
 export const PILLARS = [
   {
-    title: "SkillBridge",
+    title: "hunr",
     description:
       "Bharat's student-first freelancing platform. AI-assisted skill verification and flexible bidding — talent judged on capability, not certificates alone.",
-    link: { label: "Explore SkillBridge →", href: "#" },
+    link: { label: "Explore hunr →", href: "/hunr" },
     icon: "skillbridge" as const,
   },
   {
     title: "Mentorship",
     description:
       "Not lectures — guidance. Mentors who've walked the path, helping students build direction, confidence, and their first real opportunities.",
-    link: { label: "Meet the mentors →", href: "#" },
+    link: { label: "Meet the mentors →", href: "/mentorship" },
     icon: "mentorship" as const,
   },
   {
     title: "CONNECT",
     description:
       "Our on-ground initiative across Nagpur, Bengaluru, Mumbai, Raipur, Coimbatore, and Bhubaneswar — bridging talent, industry, and community.",
-    link: { label: "Find your city →", href: "#" },
+    link: { label: "Find your city →", href: "/connect" },
     icon: "connect" as const,
   },
 ] as const;

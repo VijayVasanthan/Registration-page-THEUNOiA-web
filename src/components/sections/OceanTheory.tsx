@@ -12,6 +12,7 @@ export default function OceanTheory() {
       className="text-center py-32 px-6 relative overflow-hidden"
       style={{ background: 'radial-gradient(ellipse at center, #060f22 0%, #030811 100%)' }}
     >
+      <div className="absolute top-0 left-1/4 w-[400px] h-[400px] rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle, rgba(192,107,62,0.05) 0%, transparent 60%)' }} />
       <AnimationSlot id="ocean-ripple" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] pointer-events-none z-0">
         <div className="absolute inset-0 m-auto w-[300px] h-[300px] rounded-full border border-gold opacity-10 animate-[ping_3s_cubic-bezier(0,0,0.2,1)_infinite]"></div>
         <div className="absolute inset-0 m-auto w-[500px] h-[500px] rounded-full border border-gold opacity-10 animate-[ping_4s_cubic-bezier(0,0,0.2,1)_infinite_1s]"></div>

@@ -10,7 +10,7 @@ export default function Stats() {
     <section 
       id="stats" 
       className="py-[120px] px-[8vw]"
-      style={{ background: 'linear-gradient(to bottom, #0A1B37 0%, #12294f 100%)' }}
+      style={{ background: 'linear-gradient(160deg, #0A1B37 0%, #12294f 60%, rgba(192,107,62,0.15) 100%)' }}
     >
       <div className="max-w-[1100px] mx-auto">
         <div className="text-center max-w-[600px] mx-auto mb-[60px]">

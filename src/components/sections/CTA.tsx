@@ -11,7 +11,7 @@ export default function CTA() {
     <section 
       id="cta" 
       className="py-[120px] px-[8vw]"
-      style={{ background: 'linear-gradient(to bottom, #0A1B37 0%, #B7AA9A 100%)' }}
+      style={{ background: 'linear-gradient(to bottom, #0A1B37 0%, rgba(192,107,62,0.3) 50%, #B7AA9A 100%)' }}
     >
       <div className="max-w-[1100px] mx-auto text-center flex flex-col items-center">
         <ScrollReveal>
@@ -26,7 +26,7 @@ export default function CTA() {
 
         <ScrollReveal delay={0.2}>
           <p className="opacity-85 max-w-[520px] mb-9 text-[16px] mx-auto">
-            Join the waitlist and be first to know when SkillBridge opens for students and clients.
+            Join the waitlist and be first to know when hunr opens for students and clients.
           </p>
         </ScrollReveal>
 
