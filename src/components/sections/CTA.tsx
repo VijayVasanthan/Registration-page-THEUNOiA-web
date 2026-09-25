@@ -31,10 +31,7 @@ export default function CTA() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.3}>
-          <form 
-            onSubmit={(e) => e.preventDefault()} 
-            className="flex gap-2.5 max-w-[420px] w-full flex-wrap justify-center mx-auto"
-          >
+          <div className="flex gap-2.5 max-w-[420px] w-full flex-wrap justify-center mx-auto">
             <input 
               type="email" 
               placeholder="you@example.com" 
@@ -42,7 +39,7 @@ export default function CTA() {
               required
             />
             <Button variant="primary">Notify me</Button>
-          </form>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal delay={0.4}>

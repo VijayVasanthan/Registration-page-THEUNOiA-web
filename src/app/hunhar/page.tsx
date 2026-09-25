@@ -1,3 +1,5 @@
+'use client'
+
 import Nav from '@/components/Nav'
 import Footer from '@/components/sections/Footer'
 import ScrollReveal from '@/components/animation/ScrollReveal'

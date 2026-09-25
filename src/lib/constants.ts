@@ -18,11 +18,11 @@ export const SECTIONS = [
 ] as const;
 
 export const NAV_LINKS = [
+  { label: "Registration", href: "/" },
   { label: "Hunhar", href: "/hunhar" },
   { label: "Mentoria", href: "/mentoria" },
   { label: "The Guild", href: "/the-guild" },
-  { label: "Team", href: "#team-teaser" },
-  { label: "Get Started", href: "#cta" },
+  { label: "About", href: "/about" },
 ] as const;
 
 export const GUILD_CITIES = [
